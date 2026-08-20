@@ -25,7 +25,7 @@ function TextInput() {
     setMessage("");
 
     try {
-      const response = await fetch("https://telebot-2eup.onrender.com/send", {
+      const response = await fetch("https://telebot-pi-sand.vercel.app/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
